@@ -1,0 +1,1098 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    height: 5909px;
+}
+
+header {
+    width: 100%;
+    height: 2.26%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.home {
+    display: none;
+}
+
+header img {
+    width: 27.48%;
+    height: 28.21%;
+    margin-left: 4.44%;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 34px;
+    padding: 0;
+    margin-left: 33.09%;
+}
+
+header ul li {
+    font-family: 'New York Small';
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2.4px;
+    line-height: 34px;
+    text-align: center;
+    color: black;
+    border-bottom: 2.5px solid transparent;
+    padding-top: 49px;
+    padding-bottom: 49px;
+}
+
+header ul li:hover {
+    border-bottom: 2px solid;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main h1 {
+    width: 858px;
+    height: 162px;
+
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 54px;
+    text-align: center;
+    margin-top: 52px;
+}
+
+.intro {
+    width: 626px;
+    height: 68px;
+
+    font-family: 'SF Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.mainPic {
+    width: 100%;
+    height: 15.23%;
+    margin-top: 52px;
+}
+
+main hr {
+    width: 640px;
+    height: 0px; 
+    border: 2px solid; 
+    margin-top: 32px;
+}
+
+.profile {
+    width: 640px;
+    display: flex;
+}
+
+.creature {
+    width: 56px;
+    height: 56px;
+    margin-top: 22px;
+}
+
+.post {
+    width: 191px;
+    height: 46px;
+    margin-top: 27px;
+    margin-left: 16px;
+}
+
+.post h3 {
+    width: 162px;
+    height: 19px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.post p {
+    width: 191px;
+    height: 19px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 8px;
+}
+
+.fbtt {
+    width: 140px;
+    height: 44px;
+
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+
+    display: flex;
+    margin-top: 28px;
+    margin-left: 237px;
+}
+
+.ft {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discrip {
+    width: 640px;
+    height: 238px;
+
+    font-family: 'New York Medium';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 52px;
+}
+
+.discrip1 {
+    display: none;
+}
+
+main h2 {
+    width: 640px;
+    height: 51px;
+
+    font-family: 'SF Pro Display Medium';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 51px;
+    margin-top: 57px;
+}
+
+.humanPic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.humanPic img {
+    width: 59.3%;
+    height: 9.64%;
+    margin-top: 52px;
+}
+
+.humanPic p {
+    width: 481px;
+    height: 44px;
+
+    font-family: 'SF Pro Text Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.someList {
+    width: 588px;
+    height: 168px;
+    margin-top: 19px;
+    list-style-type: none;
+}
+
+.someList li {
+    margin-bottom: 17px;
+    font-family: 'New York Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.someList li::before {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: black;
+    transform: rotate(45deg) translateY(-50%);
+    margin-left: -23px;
+    margin-top: 16px;
+}
+
+.fbtt1 {
+    display: none;
+}
+
+.fbtt2 {
+    box-sizing: border-box;
+
+    width: 640px;
+    height: 64px;
+    
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+
+    display: flex;
+    margin-top: 77px;
+}
+
+.ft2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ft2 div {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    padding-left: 16px;
+}
+
+.finalDiscrip {
+    width: 640px;
+    height: 19px;
+    
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+    color: #0C0C0C;
+    margin-top: 32px;
+}
+
+.finalDiscrip span {
+    border-bottom: 1.5px solid;
+}
+
+.hrSpecial {
+    width: 640px;
+    height: 0;
+    border: none;
+    border-top: 1px dashed transparent;
+    background: linear-gradient(to right, black 30%, transparent 30%);
+    background-size:3px 1px;
+    margin-top: 34px;
+}
+
+.lastInfo {
+    display: flex;
+    width: 640px;
+}
+
+.lastInfo img {
+    width: 70px;
+    height: 70px;
+    margin-top: 36px;
+}
+
+.discripFinal {
+    width: 543px;
+    height: 78px;
+
+    font-family: 'New York Small';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: 0.07px;
+    text-align: left;
+
+    color: #0C0C0C;
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.discripFinal span {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.discripFinal1 {
+    display: none;
+}
+
+.newP {
+    display: none;
+}
+
+.eye {
+    width: 82px;
+    height: 64.29px;
+    z-index: 12;
+    margin-top: 100px;
+}
+
+.eyeLine {
+    width: 100%;
+    margin-top: -35px;
+}
+
+.others {
+    width: 376px;
+    height: 53px;
+
+    font-family: 'New York Extra Large Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #000000;
+    margin-top: 71px;
+}
+
+.pics {
+    display: none;
+}
+
+.pics1 {
+    display: flex;
+    margin-top: 27px;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pic img {
+    width: 304px;
+    height: 176px;
+    margin: 0px 14px;
+}
+
+.pic p {
+    width: 288px;
+    height: 104px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    margin-top: 20px;
+}
+
+.someForm {
+    width: 640px;
+    height: 313px;
+    margin-top: 114px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-top: 9px solid;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.someForm h2 {
+    width: 444px;
+    height: 28px;
+
+    margin-top: 62px;
+
+    font-family: 'New York Extra Large Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 28px;
+    text-align: center;
+    color: #090909;
+
+}
+
+.someForm p {
+    width: 538px;
+    height: 56px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #090909;
+    margin-top: 18px;
+}
+
+.inputSomeForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.inputSomeForm input{
+    width: 413px;
+    height: 54px;
+
+    background: #FFFFFF;
+
+
+    font-family: 'SF Pro Text';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: left;
+    padding-left: 16px;
+    z-index: 10;
+    margin-right: -55px;
+}
+
+.inputSomeForm button {
+    width: 139px;
+    height: 57px;
+
+    background: #000000;
+    color: #ffffff;
+    font-family: 'SF Pro Text';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.87px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    z-index: 11;
+}
+
+.inputSomeForm button:hover {
+    cursor: pointer;
+}
+
+.inputSomeForm button:active {
+    scale: 1.01;
+}
+
+footer {
+    background: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    height: 464px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 111px;
+}
+
+.footer-links {
+    max-height: 28px;
+    width: 100.76%;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap; 
+    overflow-x: auto;
+    overflow: hidden;
+    margin-top: 18px;
+    gap: 20px;
+}
+
+.footer-links li {
+    text-transform: uppercase;
+    font-family: 'SF Pro Text';
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+}
+
+.footer-links li:hover {
+    cursor: pointer;
+}
+
+footer img {
+    width: 20.2%;
+    height: 27.3px;
+    margin-top: 105.12px;
+}
+
+.finalText1 {
+    width: 488px;
+    height: 71px;
+    font-family: 'New York Small';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 25.25px;
+}
+
+.finalText2 {
+    display: none;
+}
+
+.final-link {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+    margin-top: 32px;
+}
+
+.final-link li {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 1px solid;
+    text-transform: capitalize;
+}
+
+.final-link li:hover {
+    cursor: pointer;
+}
+
+.final-line {
+    width: 12.36%;
+    height: 34px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 64px;
+}
+
+@media (max-width: 995px) {
+    body {
+        width: 375px;
+        height: 4275px;
+    }
+    
+    header {
+        height: 65px;
+    }
+    
+    header img {
+        width: 217px;
+        height: 20px;
+        margin-left: 20px;
+    }
+
+    .home {
+        display: flex;
+        width: 24px;
+        height: 14px;
+        margin-left: 90px;
+    }
+    
+    header ul {
+        display: none;
+    }
+    
+    main h1 {
+        width: 340px;
+        height: 172px;
+
+        font-size: 36px;
+        line-height: 42.96px;
+    }
+    
+    .intro {
+        width: 335px;
+        height: 81px;
+    
+        font-size: 16px;
+        line-height: 27.2px;
+        text-align: center;
+        margin-top: 22px;
+    }
+    
+    .mainPic {
+        width: 100%;
+        height: 235px;
+        margin-top: 36px;
+    }
+    
+    main hr {
+        width: 335px;
+        border: 2px solid; 
+        margin-top: 22px;
+    }
+    
+    .profile {
+        width: 335px;
+    }
+    
+    .creature {
+        width: 56px;
+        height: 56px;
+        margin-top: 22px;
+    }
+    
+    .post {
+        width: 191px;
+        height: 46px;
+        margin-top: 27px;
+        margin-left: 16px;
+    }
+    
+    .post h3 {
+        width: 162px;
+        height: 16px;
+    
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 15.51px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    }
+    
+    .post p {
+        width: 165px;
+        height: 16px;
+    
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15.51px;
+        margin-top: 8px;
+    }
+    
+    .fbtt {
+        display: none;
+    }
+
+    .fbtt1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 335px;
+        height: 54px;
+
+        background: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+        margin-top: 19px;
+    }
+
+    .fbtt1 .ft {
+        height: 100%;
+    }
+
+    .discrip {
+        display: none;
+    }
+    
+    .discrip1 {
+        display: flex;
+        width: 335px;
+        height: 135px;
+
+        font-family: 'New York Medium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 170%;
+
+        margin-top: 25px;
+    }
+    
+    
+    main h2 {
+        width: 335px;
+        height: 31px;
+    
+        font-family: 'SF Pro Display Medium';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        margin-top: 46px;
+    }
+    
+    .humanPic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .humanPic img {
+        width: 375px;
+        height: 250px;
+        margin-top: 38px;
+    }
+    
+    .humanPic p {
+        width: 335px;
+        height: 36px;
+    
+        font-family: 'SF Pro Text Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18.2px;
+        text-align: center;
+        margin-top: 12px;
+    }
+    
+    .someList {
+        display: none;
+    }
+    
+    .fbtt2 {
+        display: none;
+    }
+    
+    .finalDiscrip {
+        width: 335px;
+        height: 17px;
+        
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16.71px;
+        letter-spacing: 0.03em;
+        margin-top: 24px;
+    }
+    
+    .finalDiscrip span {
+        border-bottom: 1.5px solid;
+    }
+    
+    .hrSpecial {
+        width: 335px;
+        border: none;
+        border-top: 1px dashed transparent;
+        background: linear-gradient(to right, black 30%, transparent 30%);
+        background-size:3px 1px;
+        margin-top: 25px;
+    }
+    
+    .lastInfo {
+        display: flex;
+        width: 335px;
+    }
+    
+    .lastInfo img {
+        width: 70px;
+        height: 70px;
+        margin-top: 28px;
+    }
+
+    .discripFinal {
+        display: none;
+    }
+    
+    .discripFinal1 {
+        display: inline;
+        width: 245px;
+        height: 88px;
+    
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22.4px;
+        letter-spacing: 0.07px;
+        text-align: left;
+    
+        color: #0C0C0C;
+        margin-top: 24px;
+        margin-left: 16px;
+    }
+
+    .newP {
+        display: block;
+        width: 335px;
+        height: 22px;
+
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+
+        margin-top: 5px;
+    }
+    
+    .discripFinal1 span {
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    }
+    
+    .eye {
+        width: 65.6px;
+        height: 53px;
+        z-index: 12;
+        margin-top: 59px;
+    }
+    
+    .eyeLine {
+        width: 100%;
+        margin-top: -28px;
+    }
+    
+    .others {
+        width: 3274px;
+        height: 38px;
+    
+        font-family: 'New York Extra Large Medium';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38.19px;
+        text-align: center;
+    
+        color: #000000;
+        margin-top: 62px;
+    }
+    
+    .pics {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 27px;
+    }
+
+    .pics1 {
+        display: none;
+    }
+    
+    .pic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .pic img {
+        width: 304px;
+        height: 194px;
+    }
+    
+    .pic p {
+        width: 262px;
+        height: auto;
+    
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+    
+        color: #000000;
+        margin-top: 20px;
+
+        margin-bottom: 42px;
+    }
+    
+    .someForm {
+        width: 375px;
+        height: 305px;
+        margin-top: 46px;
+    
+        background: #FFFFFF;
+        border: 2px solid #000000;
+        border-top: 10px solid;
+    
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .someForm h2 {
+        width: 249px;
+        height: 58px;
+    
+        margin-top: 42px;
+    
+        font-family: 'New York Extra Large Medium';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 29px;
+        text-align: center;
+        color: #090909;
+    
+    }
+    
+    .someForm p {
+        width: 306px;
+        height: 66px;
+    
+        font-family: 'SF Pro Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22.4px;
+        text-align: center;
+    
+        color: #090909;
+        margin-top: 14px;
+    }
+    
+    .inputSomeForm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 33px;
+        width: 335px;
+    }
+    
+    .inputSomeForm input{
+        width: 335px;
+        height: 54px;
+    
+        background: #FFFFFF;
+        color: #000000;
+    
+        font-family: 'SF Pro Text';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+        z-index: 10;
+        margin-left: 12px;
+    }
+
+    ::placeholder {
+        color: #000000;
+    }
+    
+    .inputSomeForm button {
+        width: 140px;
+        height: 58px;
+    
+        background: #000000;
+        color: #ffffff;
+        font-family: 'SF Pro Text';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.09px;
+        letter-spacing: 0.05em;
+        z-index: 11;
+
+        margin-right: 20px;
+    }
+    
+    
+    footer {
+        width: 100%;
+        height: 456px;
+        margin-top: 52px;
+    }
+    
+    .footer-links {
+        width: 124.53%;
+        margin-top: 22px;
+    }
+    
+    .footer-links li {
+        font-size: 16px;
+    }
+    
+    footer img {
+        width: 236.37px;
+        height: 22.18px;
+        margin-top: 103px;
+    }
+    
+    .finalText1 {
+        display: none;
+    }
+
+    .finalText2 {
+        font-family: 'New York Small';
+        display: flex;
+        width: 287px;
+        height: 71px;
+        font-size: 13px;
+        line-height: 18.2px;
+        margin-top: 25.41px;
+    }
+    
+    .final-link {
+        gap: 30px;
+    }
+    
+    .final-link li {
+        font-size: 13px;
+        line-height: 11.1px;
+    }
+    
+    .final-line {
+        width: 178px;
+        height: 34px;
+        line-height: 16.8px;
+        margin-top: 74px;
+    }
+
+    .death {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
