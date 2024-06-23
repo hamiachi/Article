@@ -604,7 +604,7 @@ footer img {
     margin-top: 64px;
 }
 
-@media (max-width: 995px) {
+@media (max-width: 991px) {
     body {
         width: 375px;
         height: 4275px;
